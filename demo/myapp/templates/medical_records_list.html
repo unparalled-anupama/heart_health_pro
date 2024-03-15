@@ -1,0 +1,57 @@
+<!-- medical_records_list.html -->
+{% extends "base.html" %}
+{% block title %}
+    Medical Records List - HeartHealth Pro
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Medical Records List</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Record ID</th>
+                <th>Date</th>
+                <th>Patient ID</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Chest Pain</th>
+                <th>Blood Pressure</th>
+                <th>Fasting BS</th>
+                <th>Resting ECG</th>
+                <th>Exercise Angina</th>
+                <th>Cholesterol</th>
+                <th>Heart Rate</th>
+                <th>ST Depression</th>
+                <th>Slope</th>
+                <th>Vessels</th>
+                <th>Thal</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in medical_records %}
+            <tr>
+                <td>{{ record.record_id }}</td>
+                <td>{{ record.date }}</td>
+                <td>{{ record.patient_id }}</td>
+                <td>{{ record.age }}</td>
+                <td>{{ record.get_sex_display }}</td>
+                <td>{{ record.get_chest_pain_display }}</td>
+                <td>{{ record.blood_pressure }}</td>
+                <td>{{ record.get_fasting_bs_display }}</td>
+                <td>{{ record.get_resting_ecg_display }}</td>
+                <td>{{ record.get_exercise_angina_display }}</td>
+                <td>{{ record.cholesterol }}</td>
+                <td>{{ record.heart_rate }}</td>
+                <td>{{ record.st_depression }}</td>
+                <td>{{ record.get_slope_display }}</td>
+                <td>{{ record.vessels }}</td>
+                <td>{{ record.get_thal_display }}</td>
+                <td>{{ record.remarks }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

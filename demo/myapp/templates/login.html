@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardio Disease Predictor Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            width: 350px;
+            padding: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .app-name {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333; /* Adjust color as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="app-name">HeartHealth Pro</div>
+        <h2>Login</h2>
+        <form method="post" class="needs-validation" novalidate>
+            {% csrf_token %}
+            <!-- Username field -->
+            <div class="mb-3">
+                <label for="id_username" class="form-label">Username</label>
+                {{ form.username }}
+                
+                <div class="invalid-feedback">{{ form.username.errors }}</div>
+            </div>
+            <!-- Password field -->
+            <div class="mb-3">
+                <label for="id_password" class="form-label">Password</label>
+                {{ form.password }}
+                
+                <div class="invalid-feedback">{{ form.password.errors }}</div>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

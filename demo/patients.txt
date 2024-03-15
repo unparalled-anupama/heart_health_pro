@@ -1,0 +1,41 @@
+first_name,last_name,date_of_birth,sex,height,weight,blood_type,city,street,telephone_number,insurance_number
+Lukas,Meyer,1988-05-20,Male,175,70,A+,Potsdam,Heinrich-Mann-Allee 20,+49 331 1234567,DE1234567890123
+Sophie,Schulze,1995-09-15,Female,165,58,O-,Cottbus,Marktplatz 15,+49 355 9876543,DE9876543210987
+Julian,Hoffmann,1983-02-12,Male,180,80,B+,Brandenburg an der Havel,Rathausplatz 10,+49 3381 234567,DE3456789012345
+Lea,Wagner,1979-11-28,Female,170,65,A-,Frankfurt (Oder),Karl-Marx-Straße 25,+49 335 8765432,DE6789012345678
+Finn,Lehmann,1990-04-05,Male,182,75,AB+,Oranienburg,Schlossplatz 30,+49 3301 2345678,DE9012345678901
+Hannah,Koch,1985-08-30,Female,168,63,O+,Potsdam,Luisenplatz 50,+49 331 3456789,DE2345678901234
+Tom,Schneider,1975-07-07,Male,178,78,A+,Cottbus,Karl-Liebknecht-Straße 5,+49 355 6543210,DE5678901234567
+Mara,Schwarz,1980-12-12,Female,172,68,B-,Brandenburg an der Havel,Friedrich-Ebert-Straße 20,+49 3381 765432,DE7890123456789
+Maximilian,Berger,1987-03-25,Male,185,85,AB-,Frankfurt (Oder),Lindenstraße 8,+49 335 876543,DE9876543210987
+Lina,Krüger,1970-02-01,Female,160,55,A-,Potsdam,Brandenburger Straße 12,+49 331 987654,DE8765432109876
+Erik,Meier,1993-08-18,Male,177,73,O-,Oranienburg,Bahnhofstraße 35,+49 3301 8765432,DE7654321098765
+Anna,Weber,1986-10-10,Female,168,62,B+,Cottbus,Lindenplatz 8,+49 355 5432109,DE6543210987654
+David,Lange,1984-12-05,Male,183,80,AB+,Potsdam,Schopenhauerstraße 15,+49 331 4321098,DE5432109876543
+Marie,Fischer,1991-06-23,Female,164,60,A+,Brandenburg an der Havel,Havelufer 40,+49 3381 2109876,DE4321098765432
+Tim,Graf,1973-04-03,Male,180,78,O-,Frankfurt (Oder),Berliner Straße 30,+49 335 6543210,DE3210987654321
+Laura,Simon,1997-01-05,Female,170,65,B+,Oranienburg,Bismarckstraße 5,+49 3301 876543,DE2109876543210
+Paula,Voigt,1982-09-20,Female,166,60,AB-,Cottbus,Heinrich-Heine-Straße 25,+49 355 1098765,DE1098765432109
+Kevin,Kühn,1989-11-14,Male,178,75,A-,Potsdam,Kurfürstenstraße 100,+49 331 2109876,DE0987654321098
+Mia,Baumann,1982-04-30,Female,169,64,O+,Brandenburg an der Havel,Neustädtischer Markt 8,+49 3381 5432109,DE9876543210987
+Jan,Lorenz,1995-07-10,Male,180,80,B-,Frankfurt (Oder),Karl-Marx-Allee 20,+49 335 8765432,DE8765432109876
+Eva,Müller,1985-03-12,Female,167,62,A+,Berlin,Alexanderplatz 5,+49 30 1234567,DE1234567890123
+Jonas,Schmidt,1990-08-25,Male,180,78,B-,Berlin,Friedrichstraße 10,+49 30 9876543,DE9876543210987
+Lara,Wagner,1979-11-05,Female,172,65,AB+,Potsdam,Karl-Liebknecht-Straße 20,+49 3381 234567,DE3456789012345
+Niklas,Becker,1988-06-18,Male,175,70,O-,Cottbus,Potsdamer Platz 15,+49 30 8765432,DE6789012345678
+Sophia,Weber,1995-09-30,Female,160,55,A-,Potsdam,Kurfürstendamm 50,+49 30 3456789,DE9012345678901
+Luca,Zimmermann,1983-04-22,Male,185,80,B+,Potsdam,Am Markt 3,+49 3382 123456,DE2345678901234
+Mia,Richter,1975-07-14,Female,168,63,A-,Cottbus,Unter den Linden 25,+49 30 6543210,DE5678901234567
+Felix,Lehmann,1980-12-01,Male,178,75,AB-,Potsdam,Friedrichstraße 20,+49 30 2345678,DE7890123456789
+Emilia,Krüger,1987-05-28,Female,166,60,O+,Potsdam,Breite Straße 8,+49 3383 765432,DE9876543210987
+Max,Schulz,1970-02-11,Male,182,78,B-,Cottbus,Schlossstraße 30,+49 30 8765432,DE8765432109876
+Hanna,Hofmann,1993-08-08,Female,170,68,A+,Potsdam,Kollwitzstraße 15,+49 30 5432109,DE7654321098765
+Finn,Werner,1978-11-26,Male,177,73,AB+,Cottbus,Lange Brücke 12,+49 3382 234567,DE6543210987654
+Lena,Berger,1991-03-17,Female,165,58,A-,Potsdam,Gendarmenmarkt 8,+49 30 4321098,DE5432109876543
+Tim,Koch,1986-10-05,Male,180,75,O-,Potsdam,Oranienburger Straße 40,+49 30 2109876,DE4321098765432
+Mia,Neumann,1984-12-19,Female,163,61,B+,Cottbus,Am Bahnhof 5,+49 3381 876543,DE3210987654321
+Paul,Schäfer,1973-06-30,Male,185,80,AB-,Potsdam,Friedrichstraße 25,+49 30 6543210,DE2109876543210
+Leonie,Herrmann,1997-01-14,Female,169,64,O+,Cottbus,Kurfürstendamm 100,+49 30 7890123,DE1098765432109
+Luca,Zimmermann,1982-04-22,Male,178,70,B+,Potsdam,Am Markt 3,+49 3382 123456,DE2345678901234
+Laura,Vogt,1990-07-15,Female,165,60,A-,Cottbus,Unter den Linden 100,+49 30 8765432,DE3456789012345
+Ben,Schwarz,1989-11-02,Male,181,75,O-,Potsdam,Potsdamer Platz 50,+49 30 5432109,DE4567890123456

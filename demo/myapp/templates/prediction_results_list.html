@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Prediction Results - HeartHealth Pro
+{% endblock %}
+
+{% block content %}
+    <h1>Prediction Results</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Prediction ID</th>
+                <th scope="col">Record ID</th>
+                <th scope="col">Prediction Result</th>
+                <th scope="col">Risk Probability</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction_result in prediction_results %}
+            <tr>
+                <td>{{ prediction_result.prediction_id }}</td>
+                <td>{{ prediction_result.record_id }}</td>
+                <td>{{ prediction_result.prediction_result }}</td>
+                <td>{{ prediction_result.risk_probability }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
